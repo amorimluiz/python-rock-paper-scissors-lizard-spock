@@ -1,3 +1,5 @@
+from src.choice.lizzard import Lizzard
+from src.choice.spock import Spock
 from src.choice.choice_enum import ChoiceEnum
 from src.choice.rock import Rock
 from src.choice.choice import Choice
@@ -14,6 +16,10 @@ class ChoiceFactory:
                 return Paper()
             case ChoiceEnum.SCISSORS:
                 return Scissors()
+            case ChoiceEnum.LIZARD:
+                return Lizzard()
+            case ChoiceEnum.SPOCK:
+                return Spock()
             case _:
                 raise Exception('Escolha do Jogador 1 inválida.')
             
