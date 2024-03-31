@@ -6,12 +6,13 @@ class Choice:
         self._winning_cases = winning_cases
         self._draw_case = draw_case
 
-    def get_result(self, second_player_choice) -> ResultEnum:
-            if second_player_choice == self._draw_case:
-                return ResultEnum.DRAW
-            
-            if second_player_choice in self._winning_cases:
-                return ResultEnum.FIRST_PLAYER_WON
-            
-            return ResultEnum.SECOND_PLAYER_WON
+    def get_loosing_cases(self):
+        return self._losing_cases
+    
+    def get_winning_cases(self):
+        return self._winning_cases
+    
+    def get_draw_case(self):
+        return self._draw_case
+    
     pass
