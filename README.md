@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors Project
+# Rock, Paper, Scissors, Lizzard, Spock Project
 
 This project aims to implement the classic game of Rock, Paper, Scissors, and extend it to include two additional elements: Lizard and Spock. It utilizes Python for the game logic and pytest for unit tests to ensure the functionality is correct.
 
@@ -14,7 +14,7 @@ Rock, Paper, Scissors is a popular hand game usually played between two people. 
 
 ### Diagram
 
-![Diagram](./diagrams/rock-paper-scissors-diagram.png)
+![TraditionalDiagram](./diagrams/rock-paper-scissors-diagram.png)
 
 ## Rock, Paper, Scissors, Lizard, Spock
 
@@ -34,6 +34,8 @@ The extension of the classic game adds two additional moves, Lizard and Spock, m
 - Spock vaporizes Rock
 
 ### Diagram
+
+![ExtendedDiagram](./diagrams/rock-paper-scissors-lizzard-spock-diagram.png)
 
 ## How to Run
 
