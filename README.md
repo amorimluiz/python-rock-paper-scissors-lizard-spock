@@ -14,7 +14,7 @@ Rock, Paper, Scissors is a popular hand game usually played between two people. 
 
 ### Diagram
 
-![Diagram](./diagrams/rock-paper-scissors-diagram.svg)
+![Diagram](./diagrams/rock-paper-scissors-diagram.png)
 
 ## Rock, Paper, Scissors, Lizard, Spock
 
