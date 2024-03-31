@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors, Lizzard, Spock Project
 
-This project aims to implement the classic game of Rock, Paper, Scissors, and extend it to include two additional elements: Lizard and Spock. It utilizes Python for the game logic and pytest for unit tests to ensure the functionality is correct.
+This project aims to implement an extended version of the classic game of Rock, Paper, Scissors, that includes two additional elements: Lizard and Spock. It utilizes Python for the game logic and pytest for unit tests to ensure the functionality is correct.
 
 ## Traditional Rock, Paper, Scissors
 
